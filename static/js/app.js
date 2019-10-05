@@ -34,7 +34,7 @@ function buildCharts(sample) {
       text: data.otu_labels,
       mode: 'markers',
       marker: {
-        size: Math.sqrt(data.sample_values) * 10
+        size: data.sample_values
       }
     };
     
